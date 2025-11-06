@@ -413,7 +413,7 @@ To receive real-time notifications about payment events, configure webhooks in y
 - `payment.canceled` - A payment was canceled
 - `payment.refunded` - A payment was refunded
 
-See the [Webhooks documentation](./webhooks.md) for more details.
+Webhook configuration and detailed event payloads can be managed through your dashboard.
 
 ---
 
