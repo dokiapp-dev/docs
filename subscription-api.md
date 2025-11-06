@@ -1,5 +1,6 @@
 ---
 title: Subscription API
+layout: page
 ---
 
 # Subscription API (DRAFT)
