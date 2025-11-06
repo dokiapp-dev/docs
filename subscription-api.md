@@ -7,10 +7,10 @@ layout: page
 
 ### Endpoint URLs:
 
-| Environment | Root Endpoint URL             |
-| ----------- | ----------------------------- |
-| Staging     | https://cortex-dev.dokiapp.hu |
-| Production  | https://cortex.dokiapp.hu     |
+| Environment | Root Endpoint URL               |
+| ----------- | -----------------------------   |
+| Staging     | `https://cortex-dev.dokiapp.hu` |
+| Production  | `https://cortex.dokiapp.hu`     |
 
 ### Sample `JSON` payload:
 
@@ -45,6 +45,8 @@ Path: `/v1/subscriptions`
 ```
 
 ### Response Codes
+
+
 | Status Code | Name                    | When Used / Meaning                                                                 |
 |-------------|-------------------------|--------------------------------------------------------------------------------------|
 | **201**     | Created                 | ✅ Subscription was successfully created; will return the redirect URL to the Payment provider where the user can enter card details and pay.      |
