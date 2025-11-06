@@ -36,8 +36,8 @@ Path: `/v1/subscriptions`
     "addressLine2": null // optional
   },
   "subscription": {
-    "planCode": "AYCM", // fix for All You Can Move
-    "billingCycle": "recurring",   // 'recurring' for 12 equal monthly installments; or 'upfront' for one-time payment
+    "planCode": "AYCM", // fix for 'All You Can Move'
+    "billingCycle": "recurring",   // 'recurring' → 12 monthly installments; 'upfront' → single one-time payment
     "currency": "HUF", // for now, only HUF is accepted
     "locale": "hu" // 'hu' or 'en'
   }
