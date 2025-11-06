@@ -28,7 +28,7 @@ Path: `/v1/subscriptions`
   "billing": {
     "billingName": "Kolompár Márió",
     "companyName": null, // only if corporate
-    "taxNumber": null, // only if coporate
+    "taxNumber": null, // only if corporate
     "country": "Magyarország",
     "zip": "1055",
     "city": "Budapest",
@@ -56,9 +56,9 @@ Path: `/v1/subscriptions`
 | **500**     | Internal Server Error   | ❌ Unexpected server error.                                                          |
 | **503**     | Service Unavailable     | ❌ System is down or overloaded; try later.                                           |
 
-### [TODO] Next Steps
+### Next Steps (WIP)
 - After capturing payload, we need to initiate a transaction via Nevogate
 - We return the redirect URL where the user needs to navigate, to enter card details (e.g. SimplePay UI)
-- User completes transaction, gets redirected back to WordPress Landing with a `transactionId`
-- WordPress Landing will need to call another endpoint to check payment status
-- If successful, we need to show details about the payment (hard requirement by SimplePay)
+- User completes transaction, gets redirected back to the landing page with a `transactionId`
+- The landing page will need to call another endpoint to check payment status (TBD)
+- If successful, we need to show details about the payment (required by SimplePay)
