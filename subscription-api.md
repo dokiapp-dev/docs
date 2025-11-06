@@ -1,3 +1,7 @@
+---
+title: Subscription API
+---
+
 # [DRAFT] All You Can Move Subscription API
 
 ### Endpoint URLs:
