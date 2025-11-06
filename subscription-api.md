@@ -2,9 +2,10 @@
 title: Subscription API
 ---
 
-# [DRAFT] All You Can Move Subscription API
+# Subscription API (DRAFT)
 
 ### Endpoint URLs:
+
 | Environment | Root Endpoint URL             |
 | ----------- | ----------------------------- |
 | Staging     | https://cortex-dev.dokiapp.hu |
@@ -13,6 +14,7 @@ title: Subscription API
 ### Sample `JSON` payload:
 
 HTTP Method: `POST`
+
 Path: `/v1/subscriptions`
 
 ```json
